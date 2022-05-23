@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --clr_bg: #4a4a4a;
+  --clr_white: #fff;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--clr_bg);
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 7rem;
+}
+
+.nav--title {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight:500;
+}
+
+.nav--title_txt {
+  color: var(--clr_white);
+  margin: 0;
+}
+
+.nav--links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 5rem;
+}
+
+.nav--links_itm_lnk {
+  color: var(--clr_white);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.nav--cart {
+  background-color: transparent;
+  border: none;
+}
+
+.nav--cart_img {
+  filter: invert(99%) sepia(97%) saturate(0%) hue-rotate(82deg) brightness(104%) contrast(100%);
+  width: 2.5rem;
+}
